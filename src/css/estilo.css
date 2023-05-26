@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+/* =========( Edição do logo )============= */
+header .logo{
+    margin: 1cm;
+    width: 80px;
+    transition: 0.2s ease-in-out;
+    border-radius: 30cm;
+    border-color: rgba(34, 56, 4, 0.938);
+    border-top-left-radius: 10cm;
+    border-style: inset;
+    border-bottom-style: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+    box-shadow: 10px 5px 5px black;  
+}
+header .logo:hover{
+    transform: scale(1.11);
+    cursor: pointer;
+}
+/* =======( Edição do titulo )============ */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: none;
+    background-color: none;  
+}
+header .titulo{
+    background-image: url("https://th.bing.com/th/id/OIP.J5NlZylY1Vd8R_9ZkcN8tQHaEo?pid=ImgDet&rs=1"), url("https://th.bing.com/th/id/OIP.J5NlZylY1Vd8R_9ZkcN8tQHaEo?pid=ImgDet&rs=1");
+    background-position: center;
+    box-shadow: 10px 5px 5px black;
+    margin: auto;
+    -webkit-text-stroke-width: 1px;
+    color:rgba(233, 217, 217, 0.5);
+    border-block: 1rem solid;writing-mode: horizontal-tb;
+    border-radius: 3cm;
+    text-align: center;
+}
+/* =======( Edição do Papel de parede )============= */  
+body {
+    background-image: url(https://th.bing.com/th/id/R.309023dcdb721e157de7e4ddebf0b54f?rik=vlkNaqngmBLBhw&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+/* =========( Ediçãos das imagens do centro )=========== */
+.container {
+    min-height: 60vh;
+    padding: 50px;
+}
+.Imagens_e_gifs {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.imagensDoCentro {
+    box-shadow: 10px 5px 5px black;
+    background-color: rgb(37, 50, 61);
+    border-radius: 1cm;
+    width: 31%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 1% 1%;
+    padding: 1% 1%;
+}
+.listagem-De-Imagens-HeavyMetal {
+    border-radius: 2cm;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+#CranioFantasma {
+    background-image: url('../imagems/Caveira_fogo_Azul.gif');
+}
+#caveira_ovindo_um_som {
+    background-image: url('../imagems/caveira_ovindo_um_som.jpg');
+}
+#caveira_pegando_fogo {
+    background-image: url('../imagems/caveira_pegando_fogo.jpg');
+}
+#gifDeUmGuitarristaTocandoGuitarra {
+    background-image: url('../imagems/Guitarrista.gif');
+}
+#gifDeUmGuitarristaPunkTocandoGuitarra {
+    background-image: url('../imagems/Guitarrista_punk.gif');
+}
+.listagem-De-Imagens-HeavyMetal p {
+    margin-bottom: 10px;
+}
+.bold {
+    font-size: 2em;
+    font-weight: bold;
+}
+/* =========( Ediçãos dos Links )============ */
+footer .linkFacebook{
+    text-decoration: solid;
+    color: rgb(241, 238, 238);
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    border-color: rgb(17, 16, 16);
+}
+footer .linkGithub{
+    text-decoration: solid;
+    color: rgb(241, 238, 238);
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    border-color: rgb(17, 16, 16);
+}
+footer .pokemon{
+    text-decoration: solid;
+    color: rgb(241, 238, 238);
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    border-color: rgb(17, 16, 16); 
+}
+footer .linkGithub:hover,
+footer .linkFacebook:hover,
+footer .pokemon:hover{
+    cursor: pointer;
+    color: rgb(158, 6, 6);
+}
+footer {
+    background-color: rgb(15, 14, 14);
+    height: auto;
+    width: 1300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+footer .linkGithub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+footer .linkFacebook{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: auto;  
+}
+footer .pokemon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: auto;   
+}
