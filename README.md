@@ -4,9 +4,9 @@ Projeto simples em **HTML e CSS** para exibir frases motivacionais e inspiradora
 Este foi um dos meus primeiros projetos, criado utilizando como base os conhecimentos adquiridos no projeto de **Listagem de Pokémon**. A partir dessa experiência, consegui aplicar o que aprendi e criar algo novo.
 
 ## Funcionalidades
-- Exibição de frases motivacionais.
-- Layout limpo e responsivo.
-- Possibilidade de adicionar novas frases.
+   - Exibição de frases motivacionais.
+   - Layout limpo e responsivo.
+   - Possibilidade de adicionar novas frases.
 
 ## Estrutura do projeto
 
@@ -23,11 +23,12 @@ SiteJayFrazes/
    ```
 
 ## Tecnologias usadas
-- HTML
-- CSS
+   - HTML
+   - CSS
 
 ## Aprendizados
-- Estruturação básica de páginas HTML.
-- Aplicação de estilos com CSS.
-- Organização de conteúdo em uma página simples.
-- Evolução prática: adaptei conceitos aprendidos no projeto de Pokémon para    criar algo novo.
+   - Estruturação básica de páginas HTML.
+   - Aplicação de estilos com CSS.
+   - Organização de conteúdo em uma página simples.
+   - Evolução prática: adaptei conceitos aprendidos no projeto de Pokémon
+     para criar algo novo.
