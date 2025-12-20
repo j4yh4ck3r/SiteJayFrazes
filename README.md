@@ -9,11 +9,11 @@ Este foi um dos meus primeiros projetos, criado utilizando como base os conhecim
    - Possibilidade de adicionar novas frases.
 
 ## Estrutura do projeto
-
-SiteJayFrazes/ 
-├── index.html   # Página principal 
-├── style.css    # Estilos da interface
-
+````
+   SiteJayFrazes/ 
+   ├── index.html   # Página principal 
+   ├── style.css    # Estilos da interface
+````
 
 ## Como rodar
 1. Clone este repositório:
